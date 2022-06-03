@@ -17,6 +17,9 @@
     --size-c: 3rem;
     --size-c_p5: 3.5rem;
 
+    --color-light:#b8c2b9;
+    --color-dark:#382b26;
+
     --color-a1:#c6e5ea;
     --color-a2:#8ea8c1;
     --color-a3:#6780ac;
@@ -44,6 +47,15 @@
     --color-c7:#3a2802;
     --color-c8:#202215;
 
+    --color-z1:#e6ceac;
+    --color-z2:#cdba94;
+    --color-z3:#bda583;
+    --color-z4:#a48d6a;
+    --color-z5:#8b7d62;
+    --color-z6:#73654a;
+    --color-z7:#524839;
+    --color-z8:#292418;
+
     --speed-a:0.1s;
     --speed-b:0.2s;
     --speed-c:0.3s;
@@ -65,7 +77,6 @@
     font-size: 16px;
     font-family: sans-serif;
     scroll-behavior: smooth;
-
 }
 
 html,
