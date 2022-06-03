@@ -5,3 +5,18 @@
 #center {}
 
 #right {}
+
+
+/* tooltips */
+.tooltip-left {}
+.tooltip-right {}
+.tooltip-top {}
+.tooltip-bottom {}
+
+/* compass */
+.compass {}
+.compass:hover {}
+.compass:focus {}
+.compass:before {}
+
+/*  */

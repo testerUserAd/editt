@@ -242,6 +242,9 @@ body {
 .fs-a {font-size: var(--size-a);}
 
 /* font-family */ 
+.ff-s {font-family: serif;}
+.ff-ss {font-family: sans-serif;}
+
 /* text-align */
 .ta-c {text-align: center;}
 /* text-trasformation */
