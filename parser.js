@@ -22,8 +22,8 @@ function parse(user_input) {
         .replace(/^/g, '<s>$1</s>') // strike-through
         .replace(/^/g, '<mark>$1</mark>') // highlight
         
-        .replace(/\!\s(.*)\s\((.*?)\)(?!\?)/, '<div class="">$1</div>') // admonitions
-        .replace(/^\%(\s\S{1}.\s)(.*\s\S)*?[^\`]+)[\)]{1}/, '<code>$1</code>') // code
+        .replace(/\!\s(.*)\s\((.*?)\)(?!\?)/, '<div class="$1"></div>') // admonitions
+        .replace(/^\%(\s\S{1}.\s)(.*\s\S)*?[^\`]+)[\)]{1}/, '<code class="$1">$2∫∫</code>') // code
         
         .replace(/^ {4}(.+) {2}/, '<p>$1</p>') // paragraph  
 

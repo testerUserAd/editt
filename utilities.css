@@ -1,11 +1,39 @@
 /* Simple UI - ABeC library */
 /*
     Outside-in first
-        - layout (position, float, clear, display)
-        - box-model (width, height, margin, padding)
-        - visual-properties (color, background, border, box-shadow) 
-        - typography-properties (font-size, font-family, text-align, text-transform)
-        - misc-properties (cursor, overflow, z-index)
+/* Simple UI - ABeC library */
+/*
+    Outside-in first
+        - layout 
+            - position
+            - float
+            - clear
+            - display
+
+        - box-model
+            - width
+            - height
+            - margin
+            - padding
+
+        - visual-properties
+            - color
+            - background
+            - border
+            - box-shadow
+
+        - typography-properties
+            - font-size
+            - font-family
+            - text-align
+            - text-transform
+
+        - misc-properties
+            - cursor
+            - overflow
+            - transition-duration 
+            - z-index
+
 */
 
 :root { 
@@ -115,8 +143,8 @@ body {
 /* == Box-model == */
 
 /* min-width / max-width */
-.min-w {min-width: ;}
-.max-w {max-width: ;}
+/* .min-w {min-width: ;} */
+.max-w-75ch {max-width: 75ch;}
 
 /* width */
 .w-a {width: var(--size-a);}
@@ -127,8 +155,10 @@ body {
 .w-c_p5 {width: var(--size-c_p5);}
 
 /* min-height / max-height */
+/* 
 .min-h {min-height: ;}
 .max-h {max-height: ;}
+*/
 
 /* height */
 .h-a {height: var(--size-a);}
@@ -146,7 +176,6 @@ body {
 .mg-auto-r {margin-right: auto;}
 .mg-auto-t {margin-top: auto;}
 .mg-auto-b {margin-bottom: auto;}
-
 
 .mg-a {margin: var(--size-a);}
 .mg-a-lr {margin: 0 var(--size-a);}
@@ -228,7 +257,8 @@ body {
 .br-c_p5 {border-radius: var(--size-c_p5);}
 .br-round {border-radius: 50%;}
 
-/* box-shadow */
+
+/* border-width*/
 .bw-n {border-width: none;}
 .bw-a {border-width: var(--size-a);}
 .bw-a_p5 {border-width: var(--size-a_p5);}
@@ -236,6 +266,10 @@ body {
 .bw-b_p5 {border-width: var(--size-b_p5);}
 .bw-c {border-width: var(--size-c);}
 .bw-c_p5 {border-width: var(--size-c_p5);}
+
+/* box-shadow */
+.bs-a-rb {box-shadow: 0px 3px 0px 0px var(--color-a8)}
+.bs-a-b {box-shadow: 0px 3px 0px 0px var(--color-a8)}
 
 /* == Typography-properties == */
 /* font-size */
@@ -254,7 +288,25 @@ body {
 .crs-p {cursor: pointer;}
 
 /* overflow */
-.o-h {overflow: hidden;}
+.of-h {overflow: hidden;}
+.of-auto {overflow: auto;}
+.of-s {overflow: scroll;}
+
+
+/* pointer-events */
+.pe-n {pointer-events: none;}
+.pe-auto {pointer-events: auto;}
+
+
+/* transition-duration */
+.trd-a {transition-duration: var(--speed-a);}
+.trd-b {transition-duration: var(--speed-b);}
+.trd-c {transition-duration: var(--speed-c);}
+.trd-d {transition-duration: var(--speed-d);}
+.trd-e {transition-duration: var(--speed-e);}
+.trd-f {transition-duration: var(--speed-f);}
+.trd-g {transition-duration: var(--speed-g);}
+.trd-h {transition-duration: var(--speed-h);}
 
 /* z-index */
 .zi-0 {z-index: 0;}
