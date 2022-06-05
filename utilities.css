@@ -255,8 +255,7 @@ body {
 .br-b_p5 {border-radius: var(--size-b_p5);}
 .br-c {border-radius: var(--size-c);}
 .br-c_p5 {border-radius: var(--size-c_p5);}
-.br-round {border-radius: 50%;}
-
+.br-round {border-radius: 50%};‡
 
 /* border-width*/
 .bw-n {border-width: none;}
