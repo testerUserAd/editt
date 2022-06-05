@@ -115,8 +115,8 @@ html,
 body {
     width: 100%;
     height: auto;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     background-color: var(--color-a1);
 }
 
@@ -444,32 +444,32 @@ body {
 .bw-c_p5 {border-width: var(--size-c_p5);}
 
 /* border-color */
-.bc-a1 {border-color: var(--color-a1)};
-.bc-a2 {border-color: var(--color-a2)};
-.bc-a3 {border-color: var(--color-a3)};
-.bc-a4 {border-color: var(--color-a4)};
-.bc-a5 {border-color: var(--color-a5)};
-.bc-a6 {border-color: var(--color-a6)};
-.bc-a7 {border-color: var(--color-a7)};
-.bc-a8 {border-color: var(--color-a8)};
+.bc-a1 {border-color: var(--color-a1);}
+.bc-a2 {border-color: var(--color-a2);}
+.bc-a3 {border-color: var(--color-a3);}
+.bc-a4 {border-color: var(--color-a4);}
+.bc-a5 {border-color: var(--color-a5);}
+.bc-a6 {border-color: var(--color-a6);}
+.bc-a7 {border-color: var(--color-a7);}
+.bc-a8 {border-color: var(--color-a8);}
 
-.bc-b1 {border-color: var(--color-b1)};
-.bc-b2 {border-color: var(--color-b2)};
-.bc-b3 {border-color: var(--color-b3)};
-.bc-b4 {border-color: var(--color-b4)};
-.bc-b5 {border-color: var(--color-b5)};
-.bc-b6 {border-color: var(--color-b6)};
-.bc-b7 {border-color: var(--color-b7)};
-.bc-b8 {border-color: var(--color-b8)};
+.bc-b1 {border-color: var(--color-b1);}
+.bc-b2 {border-color: var(--color-b2);}
+.bc-b3 {border-color: var(--color-b3);}
+.bc-b4 {border-color: var(--color-b4);}
+.bc-b5 {border-color: var(--color-b5);}
+.bc-b6 {border-color: var(--color-b6);}
+.bc-b7 {border-color: var(--color-b7);}
+.bc-b8 {border-color: var(--color-b8);}
 
-.bc-c1 {border-color: var(--color-a1)};
-.bc-c2 {border-color: var(--color-a2)};
-.bc-c3 {border-color: var(--color-a3)};
-.bc-c4 {border-color: var(--color-a4)};
-.bc-c5 {border-color: var(--color-a5)};
-.bc-c6 {border-color: var(--color-a6)};
-.bc-c7 {border-color: var(--color-a7)};
-.bc-c8 {border-color: var(--color-a8)};
+.bc-c1 {border-color: var(--color-a1);}
+.bc-c2 {border-color: var(--color-a2);}
+.bc-c3 {border-color: var(--color-a3);}
+.bc-c4 {border-color: var(--color-a4);}
+.bc-c5 {border-color: var(--color-a5);}
+.bc-c6 {border-color: var(--color-a6);}
+.bc-c7 {border-color: var(--color-a7);}
+.bc-c8 {border-color: var(--color-a8);}
 
 /* box-shadow */
 .bs-a-rb {box-shadow: 0px 3px 0px 0px var(--color-a8)}
