@@ -423,13 +423,15 @@ body {
 
 /* border */
 /* border-radius */
+
 .br-a {border-radius: var(--size-a);}
 .br-a_p5 {border-radius: var(--size-a_p5);}
 .br-b {border-radius: var(--size-b);}
 .br-b_p5 {border-radius: var(--size-b_p5);}
 .br-c {border-radius: var(--size-c);}
 .br-c_p5 {border-radius: var(--size-c_p5);}
-.br-round {border-radius: 50%};‡
+.br-round {border-radius: 50%};
+.br-bb {border-radius: 0.2rem;}
 
 /* border-width*/
 .bw-n {border-width: none;}
