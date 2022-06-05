@@ -102,8 +102,6 @@
 
 /* Base Reset */
 * {
-    width: 0%;
-    height: 0%;
     box-sizing: border-box;
     text-rendering: optimizeSpeed;
     font-size: 16px;
@@ -114,7 +112,7 @@
 html,
 body {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     background-color: var(--color-a1);
@@ -303,7 +301,7 @@ body {
 .mg-b_p5-b {margin-bottom: var(--size-b_p5);}
 
 /* padding */
-.pd-a-n {padding: none;}
+.pd-a {padding: var(--size-a);}
 .pd-a-lr {padding: 0 var(--size-a);}
 .pd-a-tb {padding: var(--size-a) 0;}
 .pd-a-l {padding-left: var(--size-a);}
@@ -311,7 +309,6 @@ body {
 .pd-a-t {padding-top: var(--size-a);}
 .pd-a-b {padding-bottom: var(--size-a);}
 
-.pd-a_p5-n {padding: none;}
 .pd-a_p5-lr {padding: 0 var(--size-a_p5);}
 .pd-a_p5-tb {padding: var(--size-a_p5) 0;}
 .pd-a_p5-l {padding-left: var(--size-a_p5);}
@@ -319,7 +316,7 @@ body {
 .pd-a_p5-t {padding-top: var(--size-a_p5);}
 .pd-a_p5-b {padding-bottom: var(--size-a_p5);}
 
-.pd-b-n {padding: none;}
+.pd-b {padding: var(--size-b);}
 .pd-b-lr {padding: 0 var(--size-b);}
 .pd-b-tb {padding: var(--size-b) 0;}
 .pd-b-l {padding-left: var(--size-b);}
@@ -327,7 +324,7 @@ body {
 .pd-b-t {padding-top: var(--size-b);}
 .pd-b-b {padding-bottom: var(--size-b);}
 
-.pd-b_p5-n {padding: none;}
+.pd-b_p5 {padding: var(--size-b_p5);}
 .pd-b_p5-lr {padding: 0 var(--size-b_p5);}
 .pd-b_p5-tb {padding: var(--size-b_p5) 0;}
 .pd-b_p5-l {padding-left: var(--size-b_p5);}
@@ -335,7 +332,8 @@ body {
 .pd-b_p5-t {padding-top: var(--size-b_p5);}
 .pd-b_p5-b {padding-bottom: var(--size-b_p5);}
 
-.pd-c-n {padding: none;}
+.pd-c {padding: var(--size-c);}
+.pd-c_p5 {padding: var(--size-c_p5);}
 .pd-c-lr {padding: 0 var(--size-c);}
 .pd-c-tb {padding: var(--size-c) 0;}
 .pd-c-l {padding-left: var(--size-c);}
@@ -343,7 +341,6 @@ body {
 .pd-c-t {padding-top: var(--size-c);}
 .pd-c-b {padding-bottom: var(--size-c);}
 
-.pd-c_p5-n {padding: none;}
 .pd-c_p5-lr {padding: 0 var(--size-c_p5);}
 .pd-c_p5-tb {padding: var(--size-c_p5) 0;}
 .pd-c_p5-l {padding-left: var(--size-c_p5);}
