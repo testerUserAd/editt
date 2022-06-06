@@ -422,8 +422,15 @@ body {
 .ol-auto {outline: auto;}
 
 /* border */
-/* border-radius */
 
+/* border style */
+.bs-solid {border-style: solid;}
+.bs-dashed {border-style: dashed;}
+.bs-dotted {border-style: dotted;}
+.bs-double {border-style: double;}
+.bs-hidden {border-style: hidden;}
+
+.bs/* border-radius */
 .br-a {border-radius: var(--size-a);}
 .br-a_p5 {border-radius: var(--size-a_p5);}
 .br-b {border-radius: var(--size-b);}
@@ -471,8 +478,8 @@ body {
 .bc-c8 {border-color: var(--color-a8);}
 
 /* box-shadow */
-.bs-a-rb {box-shadow: 0px 3px 0px 0px var(--color-a8)}
-.bs-a-b {box-shadow: 0px 3px 0px 0px var(--color-a8)}
+.bxs-a-rb {box-shadow: 0px 3px 0px 0px var(--color-a8)}
+.bxs-a-b {box-shadow: 0px 3px 0px 0px var(--color-a8)}
 
 /* opacity */
 .visible {visibility: visible;}
