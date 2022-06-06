@@ -478,7 +478,7 @@ body {
 .bc-c8 {border-color: var(--color-a8);}
 
 /* box-shadow */
-.bxs-a-rb {box-shadow: 3px 3px 3px 5px var(--color-a8)}
+.bxs-a-rb {box-shadow: 2px 2px 1px 3px var(--color-a8)}
 .bxs-a-b {box-shadow: 0px 3px 0px 0px var(--color-a8)}
 
 /* opacity */
