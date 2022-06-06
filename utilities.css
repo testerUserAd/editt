@@ -430,7 +430,7 @@ body {
 .bs-double {border-style: double;}
 .bs-hidden {border-style: hidden;}
 
-.bs/* border-radius */
+/* border-radius */
 .br-a {border-radius: var(--size-a);}
 .br-a_p5 {border-radius: var(--size-a_p5);}
 .br-b {border-radius: var(--size-b);}
