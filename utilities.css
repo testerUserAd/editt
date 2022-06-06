@@ -440,14 +440,14 @@ body {
 .br-round {border-radius: 50%};
 .br-bb {border-radius: 0.313rem;} 
 
-/* border-width*/
+/* border-width */
 .bw-n {border-width: none;}
-.bw-a {border-width: var(--size-a);}
-.bw-a_p5 {border-width: var(--size-a_p5);}
-.bw-b {border-width: var(--size-b);}
-.bw-b_p5 {border-width: var(--size-b_p5);}
-.bw-c {border-width: var(--size-c);}
-.bw-c_p5 {border-width: var(--size-c_p5);}
+.bw-a {border-width: 0.063rem;}
+.bw-a_p5 {border-width: 0.094rem;}
+.bw-b {border-width: 0.125rem;}
+.bw-b_p5 {border-width: 0.156rem;}
+.bw-c {border-width: 0.188rem;}
+.bw-c_p5 {border-width: 0.219rem;}
 
 /* border-color */
 .bc-a1 {border-color: var(--color-a1);}
